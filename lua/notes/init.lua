@@ -291,5 +291,4 @@ M.sort_task = function()
   vim.api.nvim_buf_set_lines(current_buffer, start_line, end_line, true, lines)
 end
 
-
 return M
