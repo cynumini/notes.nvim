@@ -83,6 +83,9 @@ local function open_note(entry)
 		end
 		---@diagnostic disable-next-line
 		entry[2] = Path.new(M.path, name).filename .. ".md"
+	else
+		---@diagnostic disable-next-line
+		entry[2] = Path.new(M.path, entry[2]).filename
 	end
 	vim.cmd.edit(entry[2])
 	if not exist then
