@@ -1,5 +1,10 @@
 # notes.nvim
 
+notes.nvim it's a neovim plugin for working with markdown notes.
+
+> [!WARNING]
+> This plugin has only been tested on Linux. It won't work on Windows, and probably not on macOS either.
+
 ## Setup
 
 Install [notes](https://github.com/cynumini/notes) and make sure it is available in $PATH.
